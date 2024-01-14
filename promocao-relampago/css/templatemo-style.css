@@ -189,7 +189,7 @@ h2 {
 	}
 }
 
-.pulsante {
+.pulsante, .pulsante:visited {
 	margin-top: 40px;
 	display: inline-block;
 	padding: 15px 50px;
@@ -201,13 +201,7 @@ h2 {
 	animation: pulse 1s infinite;
 }
 
-.pulsante:hover, .comprar-btn:hover {
-	text-decoration: none;
-	color: #fff;
-	background-color: #417F12;
-}
-
-.comprar-btn {
+.comprar-btn, .comprar-btn:visited {
 	margin-top: 40px;
 	display: inline-block;
 	padding: 15px 50px;
@@ -216,6 +210,15 @@ h2 {
 	text-decoration: none;
 	font-weight: bold;
 	border-radius: 5px;
+}
+
+.pulsante:hover, 
+.pulsante:active, 
+.comprar-btn:hover, 
+.comprar-btn:active {
+	text-decoration: none;
+	color: #fff;
+	background-color: #417F12;
 }
 
 ul.countdown {
